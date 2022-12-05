@@ -1,7 +1,7 @@
-// window.onload = function() {
-//     myLiffId = "1655208881-R0boqDXk";
-//     initializeLiff(myLiffId);
-// };
+window.onload = function() {
+    myLiffId = "1657707255-WVxqmM35";
+    initializeLiff(myLiffId);
+};
 
 function initializeLiff(myLiffId) {
     liff
