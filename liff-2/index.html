@@ -8,7 +8,7 @@
     <meta name="description" content="This is a small web application that demonstrates the basic functionality of the LINE Front-end Framework (LIFF)."/>
     <title>SOZI BOTS</title>
     <link rel="icon" href="https://i.ibb.co/8MWxCCV/hlth-M-profile.png"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="../assets/style.css"/>
   </head>
   <body>
     <div class="animation-wrapper">
@@ -28,6 +28,12 @@
       </div>
     </center>
     <script charset="utf-8" src="https://static.line-scdn.net/liff/edge/versions/2.14.0/sdk.js"></script>
-    <script src="liff-starter.js"></script>
+    <script src="../assets/liff-starter.js"></script>
+    <script>
+      window.onload = function() {
+          myLiffId = "1657710460-y83a8lNE";
+          initializeLiff(myLiffId);
+      };
+    </script>
   </body>
 </html>

@@ -1,8 +1,3 @@
-window.onload = function() {
-    myLiffId = "1657707255-WVxqmM35";
-    initializeLiff(myLiffId);
-};
-
 function initializeLiff(myLiffId) {
     liff
         .init({
